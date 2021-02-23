@@ -67,3 +67,8 @@ created keras model by introducing l1 regularization and l2 regularization. L2 R
 | Model with L2 regularization| 96.26 %       | 90.24 % |
 
 
+
+
+<h2>Best Model with Accuracy:</h2>
+
+Best model to find the Hepatitis C and it's progress will be L2 regularization model with 1 hidden layer(depth), 24 neurons(width). the best accuracy achieved is 96.26% and recall with 90.24%. It is evenly predicting all cllases even though the dataset is imblanced.
