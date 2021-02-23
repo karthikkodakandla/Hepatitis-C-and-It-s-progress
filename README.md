@@ -44,19 +44,26 @@ Built Keras model with metrics accuracy and recall as both will have equal impor
 
 <h4>Neurons</h4>
 
-No of neurons in hidden layers between (a)2/3 the size of the input layer, plus the size of the output layer, and twice the size of the input layer
-1. compared Keral models with basic model( normalized model) with 2/3 size of the input layer plus the size of the output layer which is 13 neurons and twice the size of the input layer which is 24 neurons. We are basically increasing width of the model. 
-Accuracy of basic model with 8 neurons : 94.47%          Recall of basic model        : 84.55%
-Accuraciy of model with 13 neurons     : 93.82%          Recall of model(13 neurons)  : 82.11%
-Accuracy of model with 24 neurons      : 95.12%          Recall of model (24 neurons) : 87.80%
+compared Keras models with basic model( normalized model) with 2/3 size of the input layer plus the size of the output layer which is 13 neurons and twice the size of the input layer which is 24 neurons. We are basically increasing width of the model. 
+
+
+| Model                | Accuracy      | Recall  |
+| -------------        |:-------------:| -----:  |
+| Model with 8 Neurons | 94.47 %       | 84.55 % |
+| Model with 13 Neurons| 93.82 %       | 82.11 % |
+| Model with 24 Neurons| 95.12 %       | 87.88 % |
 
 Based on the graph and above metrics(accuracy and recall) the best model will be model with 24 neurons. But in general we can see that both models over fit as the gap between training and validation increases. We need use regularization to solve this issue in the next models.
 
 <h4> Regularization</h4>
-1. created keras model by introducing l1 regularization and l2 regularization. L2 Regularization is best comapred with l1 regularization here. here as the inputs are less l1 regularization may not be much helpfull. both baseline and l1 regularization are overfitting compared to l2 regulariation model
+created keras model by introducing l1 regularization and l2 regularization. L2 Regularization is best comapred with l1 regularization here. here as the inputs are less l1 regularization may not be much helpfull. both baseline and l1 regularization are overfitting compared to l2 regulariation model
 
-Accuracy of basic model                  : 94.47%          Recall of basic model               : 84.55%
-Accuraciy of model l1_regularization     : 95.28%          Recall of model(l1_regularization)  : 86.18%
-Accuracy of model l2_regularization      : 96.26%          Recall of model (l2_regularization ): 90.24%
+
+
+| Model                | Accuracy      | Recall  |
+| -------------        |:-------------:| -----:  |
+| Base Model | 94.47 %       | 84.55 % |
+| Model with L1 regularization| 95.28 %       | 86.18 % |
+| Model with L2 regularization| 96.26 %       | 90.24 % |
 
 
