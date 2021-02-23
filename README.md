@@ -15,8 +15,9 @@ The reason to chose this project is that the labels are highly imbalnced . Label
 
 0(suspect Blood Donor)  =       7
 
+![alt text](https://github.com/karthikkodakandla/Hepatitis-C-and-It-s-progress/blob/master/download.png "Histogram")
 
-
+<h3>Breif about the project</h3>
 
 Built a Deep Learning Model to predict the presence of Hepatitis C  and it's progress. In the first basic model though the accuracy is more (88%) , all predictions are made with only one class( Blood Donor) as the dataset is imbalanced. This will be considered as naive model. As our main aim is to find the presence of Hepatitis c and it's progress importance should be given for the classes which predict hepatitis C(class 1 to 4). So i have used oversampling method to train the deep learning model on all classes equally. With this i have achieved good prediction and also there are predictions in other classes including a class where only 7 records exists.
 
