@@ -33,5 +33,7 @@ Built a Deep Learning Model to predict the presence of Hepatitis C  and it's pro
 
 5.Oversampling : as we have imbalanced data set, we used oversampling method on training data to resample the data to get equal number of classes with out any bias. This will help to model training data with equal importance on all clases.
 
-<h3>Build Model:</h3?
+<h3>Build Model:</h3>
 Built Keras model with metrics accuracy and recall as both will have equal importance on prediction. Accuracy to show the overall correct predictions and recall to show if the preictions made on all classes with out any bias
+
+
